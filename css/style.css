@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.navbar_asosiy{
+    width: 100%;
+    min-height: 70px;
+    padding-bottom: 5px;
+    /* position: sticky;
+    left: 0px;
+    top: 0px; */
+}
+.nav1{
+    width: 100%;
+    min-height: 70px;
+    display:flex;
+    position: fixed;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family:'Roboto', sans-serif 'Poppins', sans-serif;
+    padding-right: 40px;
+    align-items: center;
+    background: rgba(210, 210, 210, 0.85);
+   
+    box-shadow: 0px -3px 15px rgb(1, 30, 2);
+    
+    
+
+
+
+}
+.item{
+    display: inline-block;
+    border-radius: 10px;
+    min-width: 95px;
+    height:70px;
+    color: #1da1f2;
+    
+
+
+}
+.item:hover{
+    background-color: rgb(118, 118, 118);
+    color: rgb(244, 244, 244);
+    animation: a1 2 infinite;
+    animation: animation1 ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   
+
+}
+
+.nav3{
+    margin-top: 5px;
+    display: none;
+    overflow: auto;
+    border-radius: 3px;
+
+}
+.show{
+    display: block;
+    background-color: rgba(210, 210, 210, 0.85) ;
+    position: absolute;
+    width: 250px;
+    right: 5px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.img1{
+    width: 70px;
+    
+}
+.img1a{
+    margin-left: 0px;
+    position: absolute;
+    left: 35px;
+}
+li a:link{ 
+    text-decoration:none;
+    line-height: 70px;
+    padding-left: 18px;
+    margin-right: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.item:active{
+    
+    color: rgb(255, 92, 92);
+}
+.futter{
+    width: 100%;
+    background-color: #444444;
+    height: 88vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items:center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.futter .f1 ,.f2, .f3{
+    width: 400px;
+    max-height:400px;
+    min-height: 400px;
+    background-color: #ffffff;
+    color: #1da1f2;
+    display:inline-block;
+
+}
+.tarmoqlar{
+    font-size: 40px;
+    margin-left:20%;
+}
+/* .tarmoqlar.fa{
+    
+} */
+.tarmoqlar .fa:hover{
+    font-size: 50px;
+    transition: 0.5s;
+}
+.tarmoqlar .fa:active{
+    font-size: 30px;
+    transition: 0.5s;
+}
+.asos1{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/image3.jpeg");
+    background-size: cover;
+    color:whitesmoke;
+}
+.asos1 img{
+    background: transparent;
+}
+
+
+
+
+
+
+
+
+
+/* Animatsiyalar */
+@keyframes animation1 {
+    50% {
+        text-shadow: 0px 0px 15px #049fff ;
+        box-shadow: 3px 3px 10px grey;}
+    
+}
